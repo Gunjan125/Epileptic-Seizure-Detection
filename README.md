@@ -51,6 +51,8 @@ The model was trained on preprocessed EEG data, where each sample consists of 17
 
 The model was saved as `seizure_detector1.keras` and is loaded directly into the Streamlit app for real-time prediction.
 
+**## Output Screenshot**
+![image](https://github.com/Gunjan125/Epileptic-Seizure-Detection/blob/4d8f650c6153e2d3c4719c73906aedc289a725d2/Screenshot%202025-06-28%20164740.png)
 ---
 
 ## 💻 Dependencies
@@ -58,8 +60,7 @@ The model was saved as `seizure_detector1.keras` and is loaded directly into the
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow streamlit
 
-**## Output Screenshot**
-![image](https://github.com/Gunjan125/Epileptic-Seizure-Detection/blob/4d8f650c6153e2d3c4719c73906aedc289a725d2/Screenshot%202025-06-28%20164740.png)
+
 
 
 
