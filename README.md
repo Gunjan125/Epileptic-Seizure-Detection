@@ -32,18 +32,28 @@ This project aims to detect epileptic seizures  using various Machine Learning (
 - Manual tuning (epochs, layers, dropout) done for DL
 - Improved recall and class balance
 
-## 🧭 Upcoming Phases:
+## 🧠 Deep Learning Implementation
 
-### Phase 3 - CNN with EEG Images
-- Use real EEG spectrogram/image data
-- Train CNN to detect seizures from images
+The model was trained on preprocessed EEG data, where each sample consists of 178 extracted features per time window.
 
-### Phase 4 - Streamlit App
-- Upload EEG data (CSV or image)
-- Predict seizure activity
-- Show results with charts
+- **Model Type:** Feedforward Artificial Neural Network (ANN)
+- **Architecture:**
+  - Input Layer: 178 neurons
+  - Hidden Layer 1: Dense (128), Activation:eLU
+  - Hidden Layer 2: Dense (64), Activation:eLU
+  - Output Layer: Dense (1), Activation: Sigmoid
+- **Loss Function:** Binary Crossentropy
+- **Optimizer:** Adam
+- **Metrics:** Accuracy
+- **Training Split:** Train/Test split on preprocessed dataset
+- **Epochs:** 20 (approx.)
+- **Final Accuracy:** High accuracy on validation set (subject-dependent)
+
+The model was saved as `seizure_detector1.keras` and is loaded directly into the Streamlit app for real-time prediction.
 
 ---
+
+## 📦
 
 ## 💻 Dependencies
 
