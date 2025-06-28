@@ -58,3 +58,8 @@ The model was saved as `seizure_detector1.keras` and is loaded directly into the
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow streamlit
 
+**## Output Screenshot**
+![image](https://github.com/user-attachments/assets/cb235400-970a-41dd-b753-2246bb15e965)
+
+
+
