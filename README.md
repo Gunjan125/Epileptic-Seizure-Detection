@@ -59,7 +59,7 @@ The model was saved as `seizure_detector1.keras` and is loaded directly into the
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow streamlit
 
 **## Output Screenshot**
-![image](https://github.com/user-attachments/assets/cb235400-970a-41dd-b753-2246bb15e965)
+![image](https://github.com/Gunjan125/Epileptic-Seizure-Detection/blob/4d8f650c6153e2d3c4719c73906aedc289a725d2/Screenshot%202025-06-28%20164740.png)
 
 
 
