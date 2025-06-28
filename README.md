@@ -53,8 +53,6 @@ The model was saved as `seizure_detector1.keras` and is loaded directly into the
 
 ---
 
-## 📦
-
 ## 💻 Dependencies
 
 ```bash
